@@ -1,0 +1,70 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I..", "-I..", "-I../gnulib/lib", "-I../gnulib/lib", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-DLOCALEDIR="/usr/share/locale"", "-DINFODIR="/usr/share/info"", "-DINFODIR2="/usr/share/info"", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/texinfo/texinfo-6.5.0.dfsg.1=.", "-fstack-protector-strong", "-Wformat", "-march=native", "-pipe", "-Wall", "-MT", "session.o", "-MD", "-MP", "-MF", ".deps/session.Tpo", "-c", "-o", "session.o" ],
+    "objects" : [
+        {
+            "object_name" : "session.o",
+            "source_name" : "session.c",
+            "start_time" : "2018-12-03T01:10:17Z",
+            "messages" : [
+                {
+                    "msg" : "result of call is not used\n                asprintf (error, _(\"No menu in node '%s'\"),\n                ^",
+                    "line" : "2766",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n                asprintf (error, _(\"No menu item '%s' in node '%s'\"),\n                ^",
+                    "line" : "2788",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n                asprintf (error,\n                ^",
+                    "line" : "2812",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n    asprintf (&try1, \"Invoking %s\", program);\n    ^",
+                    "line" : "3385",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n    asprintf (&try2, \"%s invocation\", program);\n    ^",
+                    "line" : "3386",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n      asprintf (&prompt, _(\"%s%s%s [%s]: \"),\n      ^",
+                    "line" : "4188",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n      asprintf (&prompt, _(\"%s%s%s: \"),\n      ^",
+                    "line" : "4194",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "result of call is not used\n    asprintf (&prompt, _(\"Search under %s: \"),\n    ^",
+                    "line" : "4581",
+                    "diagnostic_num" : "2218",
+                    "file" : "session.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:10:18Z"
+        }
+    ]
+}

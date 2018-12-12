@@ -1,0 +1,4 @@
+perl:Depends=perl (>= 5.28.1-1), perlapi-5.28.1
+shlibs:Depends=libc6 (>= 2.14)
+misc:Depends=
+misc:Pre-Depends=

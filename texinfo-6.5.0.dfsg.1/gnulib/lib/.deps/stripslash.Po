@@ -1,0 +1,16 @@
+stripslash.o: stripslash.c /usr/include/stdc-predef.h ../../config.h dirname.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdbool.h \
+ /opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stddef.h \
+ dosname.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+dirname.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stdbool.h:
+
+/opt/intel/compilers_and_libraries_2019.1.144/linux/compiler/include/stddef.h:
+
+dosname.h:

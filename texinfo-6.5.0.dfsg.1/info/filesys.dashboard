@@ -1,0 +1,21 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I..", "-I..", "-I../gnulib/lib", "-I../gnulib/lib", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-DLOCALEDIR="/usr/share/locale"", "-DINFODIR="/usr/share/info"", "-DINFODIR2="/usr/share/info"", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/texinfo/texinfo-6.5.0.dfsg.1=.", "-fstack-protector-strong", "-Wformat", "-march=native", "-pipe", "-Wall", "-MT", "filesys.o", "-MD", "-MP", "-MF", ".deps/filesys.Tpo", "-c", "-o", "filesys.o" ],
+    "objects" : [
+        {
+            "object_name" : "filesys.o",
+            "source_name" : "filesys.c",
+            "start_time" : "2018-12-03T01:10:13Z",
+            "messages" : [
+                {
+                    "msg" : "result of call is not used\n                asprintf (&s, \"%s%s\", \".\/\", with_extension);\n                ^",
+                    "line" : "170",
+                    "diagnostic_num" : "2218",
+                    "file" : "filesys.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:10:13Z"
+        }
+    ]
+}

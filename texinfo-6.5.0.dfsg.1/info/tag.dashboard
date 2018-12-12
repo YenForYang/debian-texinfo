@@ -1,0 +1,12 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I..", "-I..", "-I../gnulib/lib", "-I../gnulib/lib", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-DLOCALEDIR="/usr/share/locale"", "-DINFODIR="/usr/share/info"", "-DINFODIR2="/usr/share/info"", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/NONGIT/texinfo/texinfo-6.5.0.dfsg.1=.", "-fstack-protector-strong", "-Wformat", "-march=native", "-pipe", "-Wall", "-MT", "tag.o", "-MD", "-MP", "-MF", ".deps/tag.Tpo", "-c", "-o", "tag.o" ],
+    "objects" : [
+        {
+            "object_name" : "tag.o",
+            "source_name" : "tag.c",
+            "start_time" : "2018-12-03T01:10:18Z",
+            "end_time" : "2018-12-03T01:10:18Z"
+        }
+    ]
+}

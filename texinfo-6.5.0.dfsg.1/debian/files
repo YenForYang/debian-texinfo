@@ -1,0 +1,7 @@
+info-dbgsym_6.5.0.dfsg.1-4_amd64.deb debug optional automatic=yes
+info_6.5.0.dfsg.1-4_amd64.deb doc important
+install-info-dbgsym_6.5.0.dfsg.1-4_amd64.deb debug optional automatic=yes
+install-info_6.5.0.dfsg.1-4_amd64.deb doc important
+texinfo-dbgsym_6.5.0.dfsg.1-4_amd64.deb debug optional automatic=yes
+texinfo_6.5.0.dfsg.1-4_amd64.buildinfo doc standard
+texinfo_6.5.0.dfsg.1-4_amd64.deb text optional

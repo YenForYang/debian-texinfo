@@ -1,0 +1,12 @@
+Package: install-info-dbgsym
+Source: texinfo
+Version: 6.5.0.dfsg.1-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
+Installed-Size: 49
+Depends: install-info (= 6.5.0.dfsg.1-4)
+Section: debug
+Priority: optional
+Description: debug symbols for install-info
+Build-Ids: 53aafcb9d62bb5a4e7761066f7341cb98e8875ea

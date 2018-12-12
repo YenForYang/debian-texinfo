@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Mon, 02 Jul 2018 07:13:49 +0900
+Source: texinfo
+Binary: texinfo info install-info
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64
+Version: 6.5.0.dfsg.1-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
+Changed-By: Norbert Preining <preining@debian.org>
+Description:
+ info       - Standalone GNU Info documentation browser
+ install-info - Manage installed documentation in info format
+ texinfo    - Documentation system for on-line information and printed output
+Closes: 902771 902772
+Changes:
+ texinfo (6.5.0.dfsg.1-4) unstable; urgency=medium
+ .
+   * fix infinite loop with Perl 5.28, thanks Niko Tyni (Closes: #902771)
+   * passing various flags to xs builder (Closes: #902772)
+Checksums-Sha1:
+ 0717fe0111a455642c0d1cab9f4f39058e05bc3d 294652 info-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ 76e6cdf8aeb76c6c021d613b5f8ceef321bd6b2b 503760 info_6.5.0.dfsg.1-4_amd64.deb
+ aae0db5bcde2cef09ee0587a7b76be4cb6b488fc 29560 install-info-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ bb4a0f3e69a9ab47e0bf68eb8d9cc269f3d50515 365160 install-info_6.5.0.dfsg.1-4_amd64.deb
+ 98133224025dc54b2835094df09562d7bbc0b2fb 132532 texinfo-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ c8939971a65e333506c246a1d0af1590aad00067 6618 texinfo_6.5.0.dfsg.1-4_amd64.buildinfo
+ c073623498aa192c26c068b17cc6fae06a999fa6 1430420 texinfo_6.5.0.dfsg.1-4_amd64.deb
+Checksums-Sha256:
+ 0bad381ac7eb485876773256c12cfda59400102be8007aacc1129899a48b0b35 294652 info-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ 88a0e69628a1bf497763d8afef11c0aea3bfa91c54b1b059774f4ba1737b9d5f 503760 info_6.5.0.dfsg.1-4_amd64.deb
+ 5ce147f89411769d597af8995ba4aba652f1a5766eebab94ec72d8160d315087 29560 install-info-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ 0de019cfa2c37c342f50006f4eda667414accc1b6860f2ecbd83b5af2a2df4e7 365160 install-info_6.5.0.dfsg.1-4_amd64.deb
+ c87c313c7ba562d95d61c08b0eef16d2d61518343f7e8efab673b9eea9e6ac2b 132532 texinfo-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ 36315239bf1b47529162a7d84f41f4d98c5275fc33986f3d1c5239dc23af3de8 6618 texinfo_6.5.0.dfsg.1-4_amd64.buildinfo
+ 57142cd33c9543c0ad57952e6881ebb1aeabbff6df9bdf0621e0b43de4573386 1430420 texinfo_6.5.0.dfsg.1-4_amd64.deb
+Files:
+ 9a792ba04181a80af8c53b7cb5d75218 294652 debug optional info-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ 0c9f7da2770e31ac690c62e8181c1be5 503760 doc important info_6.5.0.dfsg.1-4_amd64.deb
+ 7dde54a1b355453058a299937c76beab 29560 debug optional install-info-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ f9426917434eec70035a0217ca6688d1 365160 doc important install-info_6.5.0.dfsg.1-4_amd64.deb
+ 30c48bfe46667278089afe973483e5bc 132532 debug optional texinfo-dbgsym_6.5.0.dfsg.1-4_amd64.deb
+ ed90718ea2a1b25003f77a7853f780ce 6618 doc standard texinfo_6.5.0.dfsg.1-4_amd64.buildinfo
+ a07206783160ab114039e0187399a8e5 1430420 text optional texinfo_6.5.0.dfsg.1-4_amd64.deb
